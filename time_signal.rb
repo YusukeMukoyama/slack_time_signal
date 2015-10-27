@@ -17,4 +17,4 @@ text = case Time.now.hour
 	when 18 then '18時: のみにでも行くかー！'
 end
 
-Slack.chat_postMessage(text: test , channel: '#my_bot')
+Slack.chat_postMessage(text: text , channel: '#my_bot')
